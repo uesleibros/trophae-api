@@ -1,8 +1,8 @@
 from flask import Flask, g
-from .config import Config
-from .extensions.database import Database
-from .main import main_blueprint
-from .auth import auth_blueprint
+from config import Config
+from extensions.database import Database
+from main import main_blueprint
+from auth import auth_blueprint
 
 def create_app() -> Flask:
    app = Flask(__name__)
