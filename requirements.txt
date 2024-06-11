@@ -1,8 +1,8 @@
-postgrest==0.10.8
-postgrest-py==0.4.0
+postgrest
+postgrest-py
 Flask
-Flask-Caching==2.0.2
-Flask-Cors==4.0.0
-gunicorn==21.2.0
-python-dotenv==1.0.0
-marshmallow==3.21.3
+Flask-Caching
+Flask-Cors
+gunicorn
+python-dotenv
+marshmallow
