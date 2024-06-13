@@ -21,6 +21,4 @@ def create_app() -> Flask:
    return app
 
 app: Flask = create_app()
-
-if __name__ == "__main__":
-	app.run(port=4000, host="0.0.0.0", debug=True)
+app.run(port=4000, host="0.0.0.0", debug=True)
